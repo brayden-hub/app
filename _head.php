@@ -26,6 +26,3 @@
 
     <main>
         <h1><?= $_title ?? 'Untitled' ?></h1>
-
-
-        //why me salah punya
