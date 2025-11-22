@@ -1,10 +1,7 @@
 <?php
 @session_start();
 date_default_timezone_set('Asia/Kuala_Lumpur');
-
-function get($key, $default = null) { return $_GET[$key] ?? $default; }
-function post($key, $default = null) { return $_POST[$key] ?? $default; }
-
+//alr delete 2 line
 $cart_count = 0;
 ?>
 
